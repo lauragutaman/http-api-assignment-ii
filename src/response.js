@@ -51,7 +51,7 @@ const addUser = (request, response) => {
             const parsed = JSON.parse(body);
             name = parsed.name;
             age = parsed.age;
-        } catch (e) {
+        } catch {
             const responseJSON = {
                 message: 'Request body must be valid JSON',
                 id: 'invalidJson',
