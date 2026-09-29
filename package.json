@@ -1,0 +1,28 @@
+{
+  "name": "http-api-assignment-ii",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/lauragutaman/http-api-assignment-ii#readme",
+  "bugs": {
+    "url": "https://github.com/lauragutaman/http-api-assignment-ii/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lauragutaman/http-api-assignment-ii.git"
+  },
+  "license": "ISC",
+  "author": "Laura Gutaman",
+  "type": "commonjs",
+  "main": "eslint.config.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "pretest": "eslint ./src", 
+    "test": "echo \"ESLint passed\" "
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0"
+  }
+
+
+
+}
